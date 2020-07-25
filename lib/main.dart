@@ -12,6 +12,7 @@ void main() {
         child: Text('hello ninjas!'),
       ),
       floatingActionButton: FloatingActionButton(
+        backgroundColor: Colors.red[600],
         child: Text('Click'),
       ),
     ),
