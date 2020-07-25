@@ -17,8 +17,24 @@ class Home extends StatelessWidget {
         centerTitle: true,
       ),
       body: Center(
-        child: Image(
-          image: AssetImage('assets/space2.jpg'),
+        child: Column(
+          children: <Widget>[
+            Text(
+              'はろー,忍者',
+              style: TextStyle(
+                fontSize: 20.0,
+                fontWeight: FontWeight.bold,
+                color: Colors.lightGreen[600],
+                letterSpacing: 5.0,
+                fontFamily: 'NotoSerifJP',
+              ),
+            ),
+            Image.asset(
+              'assets/space1.jpg',
+            ),
+            Image.network(
+                'https://images.unsplash.com/photo-1444703686981-a3abbc4d4fe3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80'),
+          ],
         ),
       ),
       floatingActionButton: FloatingActionButton(
