@@ -19,6 +19,11 @@ class Home extends StatelessWidget {
       body: Center(
         child: Column(
           children: <Widget>[
+            Icon(
+              Icons.airport_shuttle,
+              color: Colors.lightBlue,
+              size: 50.0,
+            ),
             Text(
               'はろー,忍者',
               style: TextStyle(
