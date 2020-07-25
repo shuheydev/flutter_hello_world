@@ -12,18 +12,24 @@ class Home extends StatelessWidget {
       appBar: AppBar(
         backgroundColor: Colors.red[600],
         title: Text(
-          'my first app',
+          'はじめてのアプリ',
+          style: TextStyle(fontFamily: 'NotoSerifJP'),
         ),
         centerTitle: true,
       ),
       body: Padding(
         padding: EdgeInsets.all(90.0),
-        child: Text('Hello'),
+        child: Text(
+          'はろー',
+          style: TextStyle(
+            fontFamily: 'NotoSerifJP',
+          ),
+        ),
       ),
       floatingActionButton: FloatingActionButton(
         backgroundColor: Colors.red[600],
-        child: Text(
-          'click',
+        child: Icon(
+          Icons.add,
         ),
         onPressed: () {},
       ),
