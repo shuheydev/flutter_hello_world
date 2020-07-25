@@ -12,12 +12,13 @@ void main() {
       ),
       body: Center(
         child: Text(
-          'hello ninjas!',
+          'はろー,忍者!',
           style: TextStyle(
             fontSize: 20.0,
             fontWeight: FontWeight.bold,
             color: Colors.grey[600],
             letterSpacing: 2.0,
+            fontFamily: 'NotoSerifJP',
           ),
         ),
       ),
